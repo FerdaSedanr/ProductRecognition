@@ -1,0 +1,19 @@
+# TensorFlow ve büyük dosyaları hariç tut
+*.h5
+*.pb
+*.tflite
+*.onnx
+
+# Veri seti ve büyük dosyalar
+dataset/
+images/
+models/
+temp/
+
+# Sanal ortam ve önbellek dosyaları
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoint'leri
+.ipynb_checkpoints/
